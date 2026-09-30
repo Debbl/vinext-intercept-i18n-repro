@@ -1,0 +1,22 @@
+{
+  "name": "vinext-intercept-i18n-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev --port 3200 --strictPort",
+    "build": "vite build",
+    "start": "vinext start --port 3201"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-server-dom-webpack": "19.3.0",
+    "vinext": "1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "@vitejs/plugin-rsc": "^0.5.35",
+    "vite": "8.3.0"
+  },
+  "packageManager": "pnpm@11.3.0"
+}
