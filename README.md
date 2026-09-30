@@ -20,6 +20,7 @@ app/[locale]/items/page.tsx            list page with <Link href="/items/1">
 app/[locale]/items/[id]/page.tsx       full page:  <h1 id="full-page">
 app/[locale]/@modal/default.tsx        null
 app/[locale]/@modal/(.)items/[id]/page.tsx   modal: <dialog id="modal" open>
+app/[locale]/@modal/(.)items/[id]/close-button.tsx   router.back()
 ```
 
 ## Steps

@@ -1,3 +1,5 @@
+import { CloseButton } from './close-button'
+
 export default async function ItemModal({
   params,
 }: {
@@ -6,7 +8,10 @@ export default async function ItemModal({
   const { id, locale } = await params
   return (
     <dialog id='modal' open>
-      Item {id} in a modal ({locale})
+      <p>
+        Item {id} in a modal ({locale})
+      </p>
+      <CloseButton />
     </dialog>
   )
 }
