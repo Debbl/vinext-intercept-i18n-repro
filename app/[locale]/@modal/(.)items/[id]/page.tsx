@@ -5,8 +5,8 @@ export default async function ItemModal({
 }) {
   const { id, locale } = await params
   return (
-    <div id='modal' role='dialog'>
+    <dialog id='modal' open>
       Item {id} in a modal ({locale})
-    </div>
+    </dialog>
   )
 }
